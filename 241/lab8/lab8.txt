@@ -1,0 +1,15 @@
+#!/bin/bash
+
+clear
+
+while read -r f1 f2
+do
+	echo $f1
+	if [ -d $f1 ]; then
+		# found
+		:
+	else
+		mkdir "$f1"
+	fi	
+	touch "$f1"/"$f2"
+done < lab8.dat

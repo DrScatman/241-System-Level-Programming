@@ -1,0 +1,21 @@
+Script started on 2019-03-15 13:32:13-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="93" LINES="26"]
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ vlass=[K[K[K[K[K[Kclass="CIS241 W19"
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ echo=[K "My class is [K" $class
+My class is CIS241 W19
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ grep -h "if test:[K" f*[12]*
+if test $# -eq 0
+if test $# -eq 2
+if test $# -eq 0
+if test $# -eq 2
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ grep -h "if test" f*[12]* | spr[K[Kort
+if test $# -eq 0
+if test $# -eq 0
+if test $# -eq 2
+if test $# -eq 2
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ grep -h "if test" f*[12]* | sort | uniq
+if test $# -eq 0
+if test $# -eq 2
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ exit
+exit
+
+Script done on 2019-03-15 13:36:44-04:00 [COMMAND_EXIT_CODE="0"]

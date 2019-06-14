@@ -1,0 +1,136 @@
+Script started on 2019-03-15 13:07:45-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="93" LINES="55"]
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ echo "Start a terminal session"
+Start a terminal session
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ echo "My home directory is " $HOME
+My home directory is  /home/milleja1
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls - l
+ls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ "ls -l"
+bash: ls -l: command not found
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls -l[KI[Kl
+total 44
+drwxr-xr-x 1 milleja1 users 100 Mar 15 13:07 code
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles1.sh
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles2.sh
+-rw-r--r-- 1 milleja1 users 334 Mar 15 13:07 headers
+-rw-r--r-- 1 milleja1 users 336 Mar 15 13:07 inboth1.sh
+-rw-r--r-- 1 milleja1 users 269 Mar 15 13:07 inboth2.sh
+-rw-r--r-- 1 milleja1 users   0 Mar 15 13:07 lab7a
+-rw-r--r-- 1 milleja1 users  40 Mar 15 13:07 loop1
+-rw-r--r-- 1 milleja1 users  61 Mar 15 13:07 loop2
+-rw-r--r-- 1 milleja1 users  54 Mar 15 13:07 loop3
+-rw-r--r-- 1 milleja1 users  57 Mar 15 13:07 loop4
+-rw-r--r-- 1 milleja1 users  78 Mar 15 13:07 loop5
+-rwxr--r-- 1 milleja1 users 388 Mar 15 13:07 menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ [K[milleja1@eos22 lab7]$ [K[milleja1@eos22 lab7]$ [K[milleja1@eos22 lab7]$ chmod u+x loop1
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod u+x loop1[10Pls -l
+total 44
+drwxr-xr-x 1 milleja1 users 100 Mar 15 13:07 code
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles1.sh
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles2.sh
+-rw-r--r-- 1 milleja1 users 334 Mar 15 13:07 headers
+-rw-r--r-- 1 milleja1 users 336 Mar 15 13:07 inboth1.sh
+-rw-r--r-- 1 milleja1 users 269 Mar 15 13:07 inboth2.sh
+-rw-r--r-- 1 milleja1 users   0 Mar 15 13:07 lab7a
+-rwxr--r-- 1 milleja1 users  40 Mar 15 13:07 loop1
+-rw-r--r-- 1 milleja1 users  61 Mar 15 13:07 loop2
+-rw-r--r-- 1 milleja1 users  54 Mar 15 13:07 loop3
+-rw-r--r-- 1 milleja1 users  57 Mar 15 13:07 loop4
+-rw-r--r-- 1 milleja1 users  78 Mar 15 13:07 loop5
+-rwxr--r-- 1 milleja1 users 388 Mar 15 13:07 menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls -lchmod u+x loop1[K[K[Kop3
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod u+x loop3[K5
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod u+x loop53[10Pls -l
+total 44
+drwxr-xr-x 1 milleja1 users 100 Mar 15 13:07 code
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles1.sh
+-rw-r--r-- 1 milleja1 users 273 Mar 15 13:07 findfiles2.sh
+-rw-r--r-- 1 milleja1 users 334 Mar 15 13:07 headers
+-rw-r--r-- 1 milleja1 users 336 Mar 15 13:07 inboth1.sh
+-rw-r--r-- 1 milleja1 users 269 Mar 15 13:07 inboth2.sh
+-rw-r--r-- 1 milleja1 users   0 Mar 15 13:07 lab7a
+-rwxr--r-- 1 milleja1 users  40 Mar 15 13:07 loop1
+-rw-r--r-- 1 milleja1 users  61 Mar 15 13:07 loop2
+-rwxr--r-- 1 milleja1 users  54 Mar 15 13:07 loop3
+-rw-r--r-- 1 milleja1 users  57 Mar 15 13:07 loop4
+-rwxr--r-- 1 milleja1 users  78 Mar 15 13:07 loop5
+-rwxr--r-- 1 milleja1 users 388 Mar 15 13:07 menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod u.[K=[K+w *.sh
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod u+w *.sh[1P[1@g[C[C[C[C[C[C[C
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod g+w *.sh[1P[1@e[C[C[C[C[C[C[C
+chmod: invalid mode: ‘e+w’
+Try 'chmod --help' for more information.
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod e+w *.shg[C[C[C[C[C[C[Cu[C[C[C[C[C[C[C[9Pls -l
+total 44
+drwxr-xr-x 1 milleja1 users 100 Mar 15 13:07 code
+-rw-rw-r-- 1 milleja1 users 273 Mar 15 13:07 findfiles1.sh
+-rw-rw-r-- 1 milleja1 users 273 Mar 15 13:07 findfiles2.sh
+-rw-r--r-- 1 milleja1 users 334 Mar 15 13:07 headers
+-rw-rw-r-- 1 milleja1 users 336 Mar 15 13:07 inboth1.sh
+-rw-rw-r-- 1 milleja1 users 269 Mar 15 13:07 inboth2.sh
+-rw-r--r-- 1 milleja1 users   0 Mar 15 13:07 lab7a
+-rwxr--r-- 1 milleja1 users  40 Mar 15 13:07 loop1
+-rw-r--r-- 1 milleja1 users  61 Mar 15 13:07 loop2
+-rwxr--r-- 1 milleja1 users  54 Mar 15 13:07 loop3
+-rw-r--r-- 1 milleja1 users  57 Mar 15 13:07 loop4
+-rwxr--r-- 1 milleja1 users  78 Mar 15 13:07 loop5
+-rwxr--r-- 1 milleja1 users 388 Mar 15 13:07 menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod -R a[K[K[K[K[K[K[K[K[K[Kls -lchmod e+w *.sh[1P[1@a[C[C[C[C[C[C[C
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod a+w *.sh[9Pls -l
+total 44
+drwxr-xr-x 1 milleja1 users 100 Mar 15 13:07 code
+-rw-rw-rw- 1 milleja1 users 273 Mar 15 13:07 findfiles1.sh
+-rw-rw-rw- 1 milleja1 users 273 Mar 15 13:07 findfiles2.sh
+-rw-r--r-- 1 milleja1 users 334 Mar 15 13:07 headers
+-rw-rw-rw- 1 milleja1 users 336 Mar 15 13:07 inboth1.sh
+-rw-rw-rw- 1 milleja1 users 269 Mar 15 13:07 inboth2.sh
+-rw-r--r-- 1 milleja1 users   0 Mar 15 13:07 lab7a
+-rwxr--r-- 1 milleja1 users  40 Mar 15 13:07 loop1
+-rw-r--r-- 1 milleja1 users  61 Mar 15 13:07 loop2
+-rwxr--r-- 1 milleja1 users  54 Mar 15 13:07 loop3
+-rw-r--r-- 1 milleja1 users  57 Mar 15 13:07 loop4
+-rwxr--r-- 1 milleja1 users  78 Mar 15 13:07 loop5
+-rwxr--r-- 1 milleja1 users 388 Mar 15 13:07 menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ chmod g-r *.c
+chmod: cannot access '*.c': No such file or directory
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ cd code
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ ls
+firstC.c  firstC.dat  firstC.out  hello.c  hello.dat  test.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ cd ..
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ cd ..[3Plscd codehmod g-r *.c[C[C[1@-[1@R[1@ [C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd code
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ cd code[2P..[3Plscd codehmod g-r *.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ chmod g-r *.c[1P[1@a
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ ls -l
+total 24
+--w------- 1 milleja1 users 299 Mar 15 13:07 firstC.c
+-rw-r--r-- 1 milleja1 users   6 Mar 15 13:07 firstC.dat
+-rw-r--r-- 1 milleja1 users  44 Mar 15 13:07 firstC.out
+--w------- 1 milleja1 users 151 Mar 15 13:07 hello.c
+-rw-r--r-- 1 milleja1 users   4 Mar 15 13:07 hello.dat
+--w------- 1 milleja1 users 164 Mar 15 13:07 test.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ cd ..
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls
+code	       findfiles2.sh  inboth1.sh  lab7a  loop2	loop4  menu
+findfiles1.sh  headers	      inboth2.sh  loop1  loop3	loop5
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ mv fins[Kdfiles[K[K[K[K[K[K[K[K[K[K inboth1.sh code
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls
+code	       findfiles2.sh  inboth2.sh  loop1  loop3	loop5
+findfiles1.sh  headers	      lab7a	  loop2  loop4	menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ cd code
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ ls
+firstC.c  firstC.dat  firstC.out  hello.c  hello.dat  inboth1.sh  test.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ cd ..
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ mv inboth2.sh code
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ ls
+code  findfiles1.sh  findfiles2.sh  headers  lab7a  loop1  loop2  loop3  loop4	loop5  menu
+]0;milleja1@eos22:~/241/lab7[milleja1@eos22 lab7]$ cd code
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ ls
+firstC.c  firstC.dat  firstC.out  hello.c  hello.dat  inboth1.sh  inboth2.sh  test.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ rm *.dat
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ ls
+firstC.c  firstC.out  hello.c  inboth1.sh  inboth2.sh  test.c
+]0;milleja1@eos22:~/241/lab7/code[milleja1@eos22 code]$ exit
+exit
+
+Script done on 2019-03-15 13:30:53-04:00 [COMMAND_EXIT_CODE="0"]
